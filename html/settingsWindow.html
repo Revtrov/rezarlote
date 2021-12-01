@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezarlote: Settings</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' ; img-src https://*;">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body id="settingsWindowBackground">
+    <div id="title-bar">
+        <div id="title">Rezarlote: Settings</div>
+        <div id="title-bar-btns">
+            <button id="min-btn"><span id="min-btn-text">🗕</span></button>
+            <button id="max-btn"><span id="max-btn-text">🗖</span></button>
+            <button class="close-btn" id="settings-close-btn"><span id="close-btn-text">✖</span></button>
+        </div>
+    </div>
+    <div id="content">
+        <div id="settingsItemContainer">
+            <div id="settingsItem">Dark theme: <input class="settingsCheckboxes" id="themeSetting" type="checkbox"></div>
+            <div id="settingsItem">Color of app Border: <br><input class="settingsTextInput" id="borderColorSetting" type="text"></div>
+            <div id="settingsItem">Custom CSS: <input class="settingsCheckboxes" id="customCssSetting" type="checkbox"><button class="" id="customCssButton" type="submit"> Select</button>
+                <br>
+                <div id="addCSS">
+                    <input class="settingsTextInput" id="customCssURL" type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="closeButtonCurve"></div>
+    <div id="bottomBorder"></div>
+</body>
+
+</html>
